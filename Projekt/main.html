@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <style>
+        body{
+            background-image:url('arcade1.png');
+            background-size: cover;
+            transition: background-image 0.5s ease-in-out;
+        }
+        #register{
+            text-align: right;
+            
+        }
+        button{
+            float: right;
+        }
+        a{
+            text-decoration: none;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div id="register">
+        <button><a href="login.html">Login</a></button>
+        <button><a href="register.html">Register</a></button>
+    </div>
+    <script>
+        setTimeout(function() {
+            document.body.style.backgroundImage = "url('proba.png')";
+        }, 5000);
+
+        
+    </script>
+</body>
+</html>
